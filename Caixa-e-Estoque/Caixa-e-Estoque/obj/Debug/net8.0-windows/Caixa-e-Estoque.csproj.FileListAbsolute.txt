@@ -18,3 +18,8 @@ C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\D
 C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\Debug\net8.0-windows\Caixa-e-Estoque.genruntimeconfig.cache
 C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\Debug\net8.0-windows\ref\Caixa-e-Estoque.dll
 C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\Debug\net8.0-windows\Caixa_e_Estoque.Registrador.resources
+C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\Debug\net8.0-windows\Caixa_e_Estoque.Properties.Resources.resources
+C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\Debug\net8.0-windows\Caixa-e-Estoque.sourcelink.json
+C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\Debug\net8.0-windows\Caixa_e_Estoque.Estoque.resources
+C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\Debug\net8.0-windows\Caixa_e_Estoque.Atualizar.resources
+C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\Debug\net8.0-windows\Caixa_e_Estoque.Remocao.resources

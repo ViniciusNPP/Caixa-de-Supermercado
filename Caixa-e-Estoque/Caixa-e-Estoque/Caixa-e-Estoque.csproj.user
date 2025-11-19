@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Form1.cs">
+    <Compile Update="Abas\Atualizar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Registrador.cs">
+    <Compile Update="Abas\Estoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Abas\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Abas\Registrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Abas\Remocao.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

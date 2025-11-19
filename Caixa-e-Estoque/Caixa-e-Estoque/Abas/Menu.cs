@@ -12,7 +12,7 @@ namespace Caixa_e_Estoque
             Form formulario = new Forms();
             formulario.Show();
         }
-        
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -22,5 +22,24 @@ namespace Caixa_e_Estoque
         {
             AbrirFormBnt<Registrador>();
         }
+
+        private void Atualizar_Click(object sender, EventArgs e)
+        {
+            AbrirFormBnt<Atualizar>();
+        }
+        private void Estoque_Click(object sender, EventArgs e)
+        {
+            AbrirFormBnt<Estoque>();
+        }
+        private void Remocao_Click(object sender, EventArgs e)
+        {
+            AbrirFormBnt<Remocao>();
+        }
+
+        private void Título_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
