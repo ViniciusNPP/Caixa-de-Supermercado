@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            comboBoxEstoque = new ComboBox();
-            BntPesquisar = new Button();
-            textBox1 = new TextBox();
+            CoBoxCtg = new ComboBox();
+            BntPqsStq = new Button();
+            InputPqsStq = new TextBox();
             panel2 = new Panel();
             Logo2 = new PictureBox();
             Titulo = new Label();
@@ -43,14 +43,14 @@
             label11 = new Label();
             label10 = new Label();
             label9 = new Label();
-            LabelFornecedorEstoque = new Label();
-            LabelPrecoEstoque = new Label();
-            LabelValidadeEstoque = new Label();
-            LabelUMEstoque = new Label();
-            LabelQuantidadeEstoque = new Label();
-            LabelCategoriaEstoque = new Label();
-            LabelNomeEstoque = new Label();
-            LabelCodigoEstoque = new Label();
+            LabelFncdStq = new Label();
+            LabelPrecoStq = new Label();
+            LabelVldStq = new Label();
+            LabelUmStq = new Label();
+            LabelQtdStq = new Label();
+            LabelCtgStq = new Label();
+            LabelNomeStq = new Label();
+            LabelCodigoStq = new Label();
             panel3 = new Panel();
             label8 = new Label();
             label7 = new Label();
@@ -69,9 +69,9 @@
             // panel1
             // 
             panel1.BackColor = Color.MidnightBlue;
-            panel1.Controls.Add(comboBoxEstoque);
-            panel1.Controls.Add(BntPesquisar);
-            panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(CoBoxCtg);
+            panel1.Controls.Add(BntPqsStq);
+            panel1.Controls.Add(InputPqsStq);
             panel1.Controls.Add(panel2);
             panel1.Controls.Add(PanelColunaEstoque);
             panel1.Controls.Add(panel3);
@@ -80,36 +80,36 @@
             panel1.Size = new Size(811, 461);
             panel1.TabIndex = 0;
             // 
-            // comboBoxEstoque
+            // CoBoxCtg
             // 
-            comboBoxEstoque.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBoxEstoque.FormattingEnabled = true;
-            comboBoxEstoque.Location = new Point(612, 81);
-            comboBoxEstoque.Name = "comboBoxEstoque";
-            comboBoxEstoque.Size = new Size(91, 23);
-            comboBoxEstoque.TabIndex = 11;
-            comboBoxEstoque.SelectedIndexChanged += comboBoxEstoque_SelectedIndexChanged;
+            CoBoxCtg.DropDownStyle = ComboBoxStyle.DropDownList;
+            CoBoxCtg.FormattingEnabled = true;
+            CoBoxCtg.Location = new Point(612, 81);
+            CoBoxCtg.Name = "CoBoxCtg";
+            CoBoxCtg.Size = new Size(91, 23);
+            CoBoxCtg.TabIndex = 11;
+            CoBoxCtg.SelectedIndexChanged += comboBoxEstoque_SelectedIndexChanged;
             // 
-            // BntPesquisar
+            // BntPqsStq
             // 
-            BntPesquisar.BackColor = Color.RoyalBlue;
-            BntPesquisar.FlatStyle = FlatStyle.Popup;
-            BntPesquisar.Font = new Font("Segoe UI", 9F);
-            BntPesquisar.ForeColor = SystemColors.ControlLightLight;
-            BntPesquisar.Location = new Point(531, 81);
-            BntPesquisar.Name = "BntPesquisar";
-            BntPesquisar.Size = new Size(75, 23);
-            BntPesquisar.TabIndex = 9;
-            BntPesquisar.Text = "Pesquisar";
-            BntPesquisar.UseVisualStyleBackColor = false;
-            BntPesquisar.Click += BntPesquisar_Click;
+            BntPqsStq.BackColor = Color.RoyalBlue;
+            BntPqsStq.FlatStyle = FlatStyle.Popup;
+            BntPqsStq.Font = new Font("Segoe UI", 9F);
+            BntPqsStq.ForeColor = SystemColors.ControlLightLight;
+            BntPqsStq.Location = new Point(531, 81);
+            BntPqsStq.Name = "BntPqsStq";
+            BntPqsStq.Size = new Size(75, 23);
+            BntPqsStq.TabIndex = 9;
+            BntPqsStq.Text = "Pesquisar";
+            BntPqsStq.UseVisualStyleBackColor = false;
+            BntPqsStq.Click += BntPesquisar_Click;
             // 
-            // textBox1
+            // InputPqsStq
             // 
-            textBox1.Location = new Point(709, 80);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(84, 23);
-            textBox1.TabIndex = 8;
+            InputPqsStq.Location = new Point(709, 80);
+            InputPqsStq.Name = "InputPqsStq";
+            InputPqsStq.Size = new Size(84, 23);
+            InputPqsStq.TabIndex = 8;
             // 
             // panel2
             // 
@@ -150,14 +150,14 @@
             PanelColunaEstoque.Controls.Add(label11);
             PanelColunaEstoque.Controls.Add(label10);
             PanelColunaEstoque.Controls.Add(label9);
-            PanelColunaEstoque.Controls.Add(LabelFornecedorEstoque);
-            PanelColunaEstoque.Controls.Add(LabelPrecoEstoque);
-            PanelColunaEstoque.Controls.Add(LabelValidadeEstoque);
-            PanelColunaEstoque.Controls.Add(LabelUMEstoque);
-            PanelColunaEstoque.Controls.Add(LabelQuantidadeEstoque);
-            PanelColunaEstoque.Controls.Add(LabelCategoriaEstoque);
-            PanelColunaEstoque.Controls.Add(LabelNomeEstoque);
-            PanelColunaEstoque.Controls.Add(LabelCodigoEstoque);
+            PanelColunaEstoque.Controls.Add(LabelFncdStq);
+            PanelColunaEstoque.Controls.Add(LabelPrecoStq);
+            PanelColunaEstoque.Controls.Add(LabelVldStq);
+            PanelColunaEstoque.Controls.Add(LabelUmStq);
+            PanelColunaEstoque.Controls.Add(LabelQtdStq);
+            PanelColunaEstoque.Controls.Add(LabelCtgStq);
+            PanelColunaEstoque.Controls.Add(LabelNomeStq);
+            PanelColunaEstoque.Controls.Add(LabelCodigoStq);
             PanelColunaEstoque.Location = new Point(17, 109);
             PanelColunaEstoque.Name = "PanelColunaEstoque";
             PanelColunaEstoque.Size = new Size(776, 33);
@@ -233,77 +233,77 @@
             label9.Size = new Size(2, 33);
             label9.TabIndex = 1;
             // 
-            // LabelFornecedorEstoque
+            // LabelFncdStq
             // 
-            LabelFornecedorEstoque.AutoSize = true;
-            LabelFornecedorEstoque.Location = new Point(692, 9);
-            LabelFornecedorEstoque.Name = "LabelFornecedorEstoque";
-            LabelFornecedorEstoque.Size = new Size(67, 15);
-            LabelFornecedorEstoque.TabIndex = 1;
-            LabelFornecedorEstoque.Text = "Fornecedor";
+            LabelFncdStq.AutoSize = true;
+            LabelFncdStq.Location = new Point(692, 9);
+            LabelFncdStq.Name = "LabelFncdStq";
+            LabelFncdStq.Size = new Size(67, 15);
+            LabelFncdStq.TabIndex = 1;
+            LabelFncdStq.Text = "Fornecedor";
             // 
-            // LabelPrecoEstoque
+            // LabelPrecoStq
             // 
-            LabelPrecoEstoque.AutoSize = true;
-            LabelPrecoEstoque.Location = new Point(387, 9);
-            LabelPrecoEstoque.Name = "LabelPrecoEstoque";
-            LabelPrecoEstoque.Size = new Size(37, 15);
-            LabelPrecoEstoque.TabIndex = 1;
-            LabelPrecoEstoque.Text = "Preço";
+            LabelPrecoStq.AutoSize = true;
+            LabelPrecoStq.Location = new Point(387, 9);
+            LabelPrecoStq.Name = "LabelPrecoStq";
+            LabelPrecoStq.Size = new Size(37, 15);
+            LabelPrecoStq.TabIndex = 1;
+            LabelPrecoStq.Text = "Preço";
             // 
-            // LabelValidadeEstoque
+            // LabelVldStq
             // 
-            LabelValidadeEstoque.AutoSize = true;
-            LabelValidadeEstoque.Location = new Point(595, 9);
-            LabelValidadeEstoque.Name = "LabelValidadeEstoque";
-            LabelValidadeEstoque.Size = new Size(51, 15);
-            LabelValidadeEstoque.TabIndex = 2;
-            LabelValidadeEstoque.Text = "Validade";
+            LabelVldStq.AutoSize = true;
+            LabelVldStq.Location = new Point(595, 9);
+            LabelVldStq.Name = "LabelVldStq";
+            LabelVldStq.Size = new Size(51, 15);
+            LabelVldStq.TabIndex = 2;
+            LabelVldStq.Text = "Validade";
             // 
-            // LabelUMEstoque
+            // LabelUmStq
             // 
-            LabelUMEstoque.AutoSize = true;
-            LabelUMEstoque.Location = new Point(465, 9);
-            LabelUMEstoque.Name = "LabelUMEstoque";
-            LabelUMEstoque.Size = new Size(81, 15);
-            LabelUMEstoque.TabIndex = 1;
-            LabelUMEstoque.Text = "Unid. de Med.";
+            LabelUmStq.AutoSize = true;
+            LabelUmStq.Location = new Point(465, 9);
+            LabelUmStq.Name = "LabelUmStq";
+            LabelUmStq.Size = new Size(81, 15);
+            LabelUmStq.TabIndex = 1;
+            LabelUmStq.Text = "Unid. de Med.";
             // 
-            // LabelQuantidadeEstoque
+            // LabelQtdStq
             // 
-            LabelQuantidadeEstoque.AutoSize = true;
-            LabelQuantidadeEstoque.Location = new Point(277, 9);
-            LabelQuantidadeEstoque.Name = "LabelQuantidadeEstoque";
-            LabelQuantidadeEstoque.Size = new Size(69, 15);
-            LabelQuantidadeEstoque.TabIndex = 1;
-            LabelQuantidadeEstoque.Text = "Quantidade";
+            LabelQtdStq.AutoSize = true;
+            LabelQtdStq.Location = new Point(277, 9);
+            LabelQtdStq.Name = "LabelQtdStq";
+            LabelQtdStq.Size = new Size(69, 15);
+            LabelQtdStq.TabIndex = 1;
+            LabelQtdStq.Text = "Quantidade";
             // 
-            // LabelCategoriaEstoque
+            // LabelCtgStq
             // 
-            LabelCategoriaEstoque.AutoSize = true;
-            LabelCategoriaEstoque.Location = new Point(179, 9);
-            LabelCategoriaEstoque.Name = "LabelCategoriaEstoque";
-            LabelCategoriaEstoque.Size = new Size(58, 15);
-            LabelCategoriaEstoque.TabIndex = 1;
-            LabelCategoriaEstoque.Text = "Categoria";
+            LabelCtgStq.AutoSize = true;
+            LabelCtgStq.Location = new Point(179, 9);
+            LabelCtgStq.Name = "LabelCtgStq";
+            LabelCtgStq.Size = new Size(58, 15);
+            LabelCtgStq.TabIndex = 1;
+            LabelCtgStq.Text = "Categoria";
             // 
-            // LabelNomeEstoque
+            // LabelNomeStq
             // 
-            LabelNomeEstoque.AutoSize = true;
-            LabelNomeEstoque.Location = new Point(96, 9);
-            LabelNomeEstoque.Name = "LabelNomeEstoque";
-            LabelNomeEstoque.Size = new Size(40, 15);
-            LabelNomeEstoque.TabIndex = 1;
-            LabelNomeEstoque.Text = "Nome";
+            LabelNomeStq.AutoSize = true;
+            LabelNomeStq.Location = new Point(96, 9);
+            LabelNomeStq.Name = "LabelNomeStq";
+            LabelNomeStq.Size = new Size(40, 15);
+            LabelNomeStq.TabIndex = 1;
+            LabelNomeStq.Text = "Nome";
             // 
-            // LabelCodigoEstoque
+            // LabelCodigoStq
             // 
-            LabelCodigoEstoque.AutoSize = true;
-            LabelCodigoEstoque.Location = new Point(16, 9);
-            LabelCodigoEstoque.Name = "LabelCodigoEstoque";
-            LabelCodigoEstoque.Size = new Size(46, 15);
-            LabelCodigoEstoque.TabIndex = 0;
-            LabelCodigoEstoque.Text = "Codigo";
+            LabelCodigoStq.AutoSize = true;
+            LabelCodigoStq.Location = new Point(16, 9);
+            LabelCodigoStq.Name = "LabelCodigoStq";
+            LabelCodigoStq.Size = new Size(46, 15);
+            LabelCodigoStq.TabIndex = 0;
+            LabelCodigoStq.Text = "Codigo";
             // 
             // panel3
             // 
@@ -419,17 +419,17 @@
         private PictureBox Logo2;
         private Label Titulo;
         private Panel PanelColunaEstoque;
-        private Button BntPesquisar;
-        private TextBox textBox1;
-        private Label LabelCodigoEstoque;
+        private Button BntPqsStq;
+        private TextBox InputPqsStq;
+        private Label LabelCodigoStq;
         private Panel panel3;
-        private Label LabelNomeEstoque;
-        private Label LabelPrecoEstoque;
-        private Label LabelFornecedorEstoque;
-        private Label LabelCategoriaEstoque;
-        private Label LabelUMEstoque;
-        private Label LabelQuantidadeEstoque;
-        private Label LabelValidadeEstoque;
+        private Label LabelNomeStq;
+        private Label LabelPrecoStq;
+        private Label LabelFncdStq;
+        private Label LabelCtgStq;
+        private Label LabelUmStq;
+        private Label LabelQtdStq;
+        private Label LabelVldStq;
         private Label label2;
         private Label label8;
         private Label label7;
@@ -444,6 +444,6 @@
         private Label label12;
         private Label label11;
         private Label label10;
-        private ComboBox comboBoxEstoque;
+        private ComboBox CoBoxCtg;
     }
 }

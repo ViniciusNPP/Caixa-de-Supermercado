@@ -18,7 +18,8 @@ namespace Caixa_e_Estoque
         {
             InitializeComponent();
 
-            AddPanelItensToComboBox(comboBoxEstoque, PanelColunaEstoque, SortWay.reverse, "Label");
+            //Faz o comboBox receber os nome dos labels do painel
+            AddPanelItensToComboBox(CoBoxCtg, PanelColunaEstoque, SortWay.reverse, "Label");
 
         }
 

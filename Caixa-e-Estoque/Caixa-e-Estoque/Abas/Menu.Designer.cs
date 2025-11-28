@@ -30,12 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             panel1 = new Panel();
+            BntBancoDeDados = new Button();
             Logo2 = new PictureBox();
             Título = new Label();
             BntRemocaoMenu = new Button();
             BntAtualizarMenu = new Button();
             BntEstoqueMenu = new Button();
             BntRegistradorMenu = new Button();
+            RespostaSql = new TextBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)Logo2).BeginInit();
             SuspendLayout();
@@ -44,6 +46,7 @@
             // 
             resources.ApplyResources(panel1, "panel1");
             panel1.BackColor = Color.CornflowerBlue;
+            panel1.Controls.Add(BntBancoDeDados);
             panel1.Controls.Add(Logo2);
             panel1.Controls.Add(Título);
             panel1.Controls.Add(BntRemocaoMenu);
@@ -51,6 +54,17 @@
             panel1.Controls.Add(BntEstoqueMenu);
             panel1.Controls.Add(BntRegistradorMenu);
             panel1.Name = "panel1";
+            // 
+            // BntBancoDeDados
+            // 
+            resources.ApplyResources(BntBancoDeDados, "BntBancoDeDados");
+            BntBancoDeDados.BackColor = Color.RoyalBlue;
+            BntBancoDeDados.Cursor = Cursors.Hand;
+            BntBancoDeDados.ForeColor = SystemColors.ControlLightLight;
+            BntBancoDeDados.Image = Properties.Resources.banco_de_dados;
+            BntBancoDeDados.Name = "BntBancoDeDados";
+            BntBancoDeDados.UseVisualStyleBackColor = false;
+            BntBancoDeDados.Click += BntBancoDeDados_Click;
             // 
             // Logo2
             // 
@@ -105,11 +119,17 @@
             BntRegistradorMenu.UseVisualStyleBackColor = false;
             BntRegistradorMenu.Click += Registrador_Click;
             // 
+            // RespostaSql
+            // 
+            resources.ApplyResources(RespostaSql, "RespostaSql");
+            RespostaSql.Name = "RespostaSql";
+            // 
             // Menu
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.MidnightBlue;
+            Controls.Add(RespostaSql);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             MaximizeBox = false;
@@ -119,6 +139,7 @@
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)Logo2).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -130,5 +151,7 @@
         private Button BntRegistradorMenu;
         private Label Título;
         private PictureBox Logo2;
+        private Button BntBancoDeDados;
+        private TextBox RespostaSql;
     }
 }

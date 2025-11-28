@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Caixa-e-Estoque")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20c2c906793df5858ef8355125298c4f56ceef96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28bffa85b5ae21d29c137e1f7cc2053f2802d9b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Caixa-e-Estoque")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Caixa-e-Estoque")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

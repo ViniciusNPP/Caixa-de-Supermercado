@@ -117,7 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BntBancoDeDados.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BntBancoDeDados.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt</value>
+  </data>
+  <data name="BntBancoDeDados.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BntBancoDeDados.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 37</value>
+  </data>
   <data name="Logo2.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 65</value>
   </data>
@@ -137,7 +150,6 @@
   <data name="Título.Text" xml:space="preserve">
     <value>Supermercado G</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="BntRemocaoMenu.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
@@ -147,14 +159,8 @@
   <data name="BntRemocaoMenu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="BntRemocaoMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 378</value>
-  </data>
   <data name="BntRemocaoMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 47</value>
-  </data>
-  <data name="BntRemocaoMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
   </data>
   <data name="BntRemocaoMenu.Text" xml:space="preserve">
     <value>Remoção</value>
@@ -168,14 +174,8 @@
   <data name="BntAtualizarMenu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="BntAtualizarMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 293</value>
-  </data>
   <data name="BntAtualizarMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 45</value>
-  </data>
-  <data name="BntAtualizarMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
   </data>
   <data name="BntAtualizarMenu.Text" xml:space="preserve">
     <value>Atualizar</value>
@@ -189,14 +189,8 @@
   <data name="BntEstoqueMenu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="BntEstoqueMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 205</value>
-  </data>
   <data name="BntEstoqueMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 47</value>
-  </data>
-  <data name="BntEstoqueMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="BntEstoqueMenu.Text" xml:space="preserve">
     <value>Estoque</value>
@@ -210,20 +204,20 @@
   <data name="BntRegistradorMenu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="BntRegistradorMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 116</value>
-  </data>
   <data name="BntRegistradorMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 47</value>
-  </data>
-  <data name="BntRegistradorMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="BntRegistradorMenu.Text" xml:space="preserve">
     <value>Registrador</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>328, 456</value>
+  </data>
+  <data name="RespostaSql.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RespostaSql.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 227</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

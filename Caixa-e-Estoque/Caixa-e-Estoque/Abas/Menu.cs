@@ -1,3 +1,5 @@
+using Caixa_e_Estoque.Data;
+
 namespace Caixa_e_Estoque
 {
     public partial class Menu : Form
@@ -41,5 +43,15 @@ namespace Caixa_e_Estoque
 
         }
 
+        private void BntBancoDeDados_Click(object sender, EventArgs e)
+        {
+            DataBase db = new();
+            List<string> itens = db.Select("");
+
+            foreach (var item in itens)
+            {
+                RespostaSql.Text = item;
+            }
+        }
     }
 }

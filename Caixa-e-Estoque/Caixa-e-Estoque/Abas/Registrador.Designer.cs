@@ -29,26 +29,27 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            TextoInput = new TextBox();
             label2 = new Label();
-            InputValidadeRG = new TextBox();
-            LabelValidadeRegistrador = new Label();
+            InputVldRg = new TextBox();
+            LabelVldRg = new Label();
             BntRegistrarProduto = new Button();
-            InputDescricaoRG = new TextBox();
-            InputUmRG = new TextBox();
-            InputQuantidadeRG = new TextBox();
-            InputPrecoRG = new TextBox();
-            InputCodigoRG = new TextBox();
-            InputFornecedorRG = new TextBox();
-            InputCategoriaRG = new TextBox();
-            InputNomeRG = new TextBox();
-            LabelDescricaoRegistrador = new Label();
-            LabelUMRegistrador = new Label();
-            LabelFornecedorRegistrador = new Label();
-            LabelQuantidadeRegistrador = new Label();
-            LabelPreçoRegistrador = new Label();
-            LabelCategoriaRegistrador = new Label();
-            LabelNomeRegistrador = new Label();
-            LabelCodigoRegistrador = new Label();
+            InputDscRg = new TextBox();
+            InputUmRg = new TextBox();
+            InputQtdRg = new TextBox();
+            InputPrecoRg = new TextBox();
+            InputCodigoRg = new TextBox();
+            InputFncdRg = new TextBox();
+            InputCtgRg = new TextBox();
+            InputNomeRg = new TextBox();
+            LabelDscRg = new Label();
+            LabelUmRg = new Label();
+            LabelFncdRg = new Label();
+            LabelQtdRg = new Label();
+            LabelPreçoRg = new Label();
+            LabelCtgRg = new Label();
+            LabelNomeRg = new Label();
+            LabelCodigoRg = new Label();
             panel2 = new Panel();
             Logo2 = new PictureBox();
             label1 = new Label();
@@ -60,31 +61,40 @@
             // panel1
             // 
             panel1.BackColor = Color.MidnightBlue;
+            panel1.Controls.Add(TextoInput);
             panel1.Controls.Add(label2);
-            panel1.Controls.Add(InputValidadeRG);
-            panel1.Controls.Add(LabelValidadeRegistrador);
+            panel1.Controls.Add(InputVldRg);
+            panel1.Controls.Add(LabelVldRg);
             panel1.Controls.Add(BntRegistrarProduto);
-            panel1.Controls.Add(InputDescricaoRG);
-            panel1.Controls.Add(InputUmRG);
-            panel1.Controls.Add(InputQuantidadeRG);
-            panel1.Controls.Add(InputPrecoRG);
-            panel1.Controls.Add(InputCodigoRG);
-            panel1.Controls.Add(InputFornecedorRG);
-            panel1.Controls.Add(InputCategoriaRG);
-            panel1.Controls.Add(InputNomeRG);
-            panel1.Controls.Add(LabelDescricaoRegistrador);
-            panel1.Controls.Add(LabelUMRegistrador);
-            panel1.Controls.Add(LabelFornecedorRegistrador);
-            panel1.Controls.Add(LabelQuantidadeRegistrador);
-            panel1.Controls.Add(LabelPreçoRegistrador);
-            panel1.Controls.Add(LabelCategoriaRegistrador);
-            panel1.Controls.Add(LabelNomeRegistrador);
-            panel1.Controls.Add(LabelCodigoRegistrador);
+            panel1.Controls.Add(InputDscRg);
+            panel1.Controls.Add(InputUmRg);
+            panel1.Controls.Add(InputQtdRg);
+            panel1.Controls.Add(InputPrecoRg);
+            panel1.Controls.Add(InputCodigoRg);
+            panel1.Controls.Add(InputFncdRg);
+            panel1.Controls.Add(InputCtgRg);
+            panel1.Controls.Add(InputNomeRg);
+            panel1.Controls.Add(LabelDscRg);
+            panel1.Controls.Add(LabelUmRg);
+            panel1.Controls.Add(LabelFncdRg);
+            panel1.Controls.Add(LabelQtdRg);
+            panel1.Controls.Add(LabelPreçoRg);
+            panel1.Controls.Add(LabelCtgRg);
+            panel1.Controls.Add(LabelNomeRg);
+            panel1.Controls.Add(LabelCodigoRg);
             panel1.Controls.Add(panel2);
             panel1.Location = new Point(-1, -2);
             panel1.Name = "panel1";
             panel1.Size = new Size(802, 458);
             panel1.TabIndex = 0;
+            // 
+            // TextoInput
+            // 
+            TextoInput.Location = new Point(421, 377);
+            TextoInput.Multiline = true;
+            TextoInput.Name = "TextoInput";
+            TextoInput.Size = new Size(341, 72);
+            TextoInput.TabIndex = 28;
             // 
             // label2
             // 
@@ -97,24 +107,25 @@
             label2.TabIndex = 27;
             label2.Text = "Todos as células em seus nomes com *  na frente \r\nsão obrigados a serem preenchidas";
             // 
-            // InputValidadeRG
+            // InputVldRg
             // 
-            InputValidadeRG.Location = new Point(633, 214);
-            InputValidadeRG.Name = "InputValidadeRG";
-            InputValidadeRG.PlaceholderText = "01/02/2025";
-            InputValidadeRG.Size = new Size(84, 23);
-            InputValidadeRG.TabIndex = 26;
+            InputVldRg.Location = new Point(633, 214);
+            InputVldRg.Name = "InputVldRg";
+            InputVldRg.PlaceholderText = "01/02/2025";
+            InputVldRg.Size = new Size(84, 23);
+            InputVldRg.TabIndex = 26;
+            InputVldRg.Leave += InputVldRg_Leave;
             // 
-            // LabelValidadeRegistrador
+            // LabelVldRg
             // 
-            LabelValidadeRegistrador.AutoSize = true;
-            LabelValidadeRegistrador.Font = new Font("Segoe UI", 12F);
-            LabelValidadeRegistrador.ForeColor = SystemColors.ControlLightLight;
-            LabelValidadeRegistrador.Location = new Point(633, 190);
-            LabelValidadeRegistrador.Name = "LabelValidadeRegistrador";
-            LabelValidadeRegistrador.Size = new Size(69, 21);
-            LabelValidadeRegistrador.TabIndex = 25;
-            LabelValidadeRegistrador.Text = "Validade";
+            LabelVldRg.AutoSize = true;
+            LabelVldRg.Font = new Font("Segoe UI", 12F);
+            LabelVldRg.ForeColor = SystemColors.ControlLightLight;
+            LabelVldRg.Location = new Point(633, 190);
+            LabelVldRg.Name = "LabelVldRg";
+            LabelVldRg.Size = new Size(69, 21);
+            LabelVldRg.TabIndex = 25;
+            LabelVldRg.Text = "Validade";
             // 
             // BntRegistrarProduto
             // 
@@ -127,152 +138,161 @@
             BntRegistrarProduto.TabIndex = 24;
             BntRegistrarProduto.Text = "Registrar";
             BntRegistrarProduto.UseVisualStyleBackColor = false;
+            BntRegistrarProduto.Click += BntRegistrarProduto_Click;
             // 
-            // InputDescricaoRG
+            // InputDscRg
             // 
-            InputDescricaoRG.Location = new Point(13, 310);
-            InputDescricaoRG.Multiline = true;
-            InputDescricaoRG.Name = "InputDescricaoRG";
-            InputDescricaoRG.Size = new Size(341, 130);
-            InputDescricaoRG.TabIndex = 23;
-            InputDescricaoRG.TextChanged += textBox8_TextChanged;
+            InputDscRg.Location = new Point(13, 310);
+            InputDscRg.Multiline = true;
+            InputDscRg.Name = "InputDscRg";
+            InputDscRg.Size = new Size(341, 130);
+            InputDscRg.TabIndex = 23;
+            InputDscRg.Leave += InputDscRg_Leave;
             // 
-            // InputUmRG
+            // InputUmRg
             // 
-            InputUmRG.Location = new Point(442, 214);
-            InputUmRG.Name = "InputUmRG";
-            InputUmRG.Size = new Size(145, 23);
-            InputUmRG.TabIndex = 22;
+            InputUmRg.Location = new Point(442, 214);
+            InputUmRg.Name = "InputUmRg";
+            InputUmRg.Size = new Size(145, 23);
+            InputUmRg.TabIndex = 22;
+            InputUmRg.Leave += InputUmRg_Leave;
             // 
-            // InputQuantidadeRG
+            // InputQtdRg
             // 
-            InputQuantidadeRG.Location = new Point(302, 214);
-            InputQuantidadeRG.Name = "InputQuantidadeRG";
-            InputQuantidadeRG.Size = new Size(91, 23);
-            InputQuantidadeRG.TabIndex = 21;
+            InputQtdRg.Location = new Point(302, 214);
+            InputQtdRg.Name = "InputQtdRg";
+            InputQtdRg.Size = new Size(91, 23);
+            InputQtdRg.TabIndex = 21;
+            InputQtdRg.Leave += InputQtdRg_Leave;
             // 
-            // InputPrecoRG
+            // InputPrecoRg
             // 
-            InputPrecoRG.Location = new Point(155, 214);
-            InputPrecoRG.Name = "InputPrecoRG";
-            InputPrecoRG.Size = new Size(84, 23);
-            InputPrecoRG.TabIndex = 20;
+            InputPrecoRg.Location = new Point(155, 214);
+            InputPrecoRg.Name = "InputPrecoRg";
+            InputPrecoRg.PlaceholderText = "12,3";
+            InputPrecoRg.Size = new Size(84, 23);
+            InputPrecoRg.TabIndex = 20;
+            InputPrecoRg.Leave += InputPrecoRg_Leave;
             // 
-            // InputCodigoRG
+            // InputCodigoRg
             // 
-            InputCodigoRG.Location = new Point(13, 214);
-            InputCodigoRG.Name = "InputCodigoRG";
-            InputCodigoRG.Size = new Size(84, 23);
-            InputCodigoRG.TabIndex = 19;
+            InputCodigoRg.Location = new Point(13, 214);
+            InputCodigoRg.Name = "InputCodigoRg";
+            InputCodigoRg.Size = new Size(84, 23);
+            InputCodigoRg.TabIndex = 19;
+            InputCodigoRg.Leave += InputCodigoRg_Leave;
             // 
-            // InputFornecedorRG
+            // InputFncdRg
             // 
-            InputFornecedorRG.Location = new Point(501, 128);
-            InputFornecedorRG.Name = "InputFornecedorRG";
-            InputFornecedorRG.Size = new Size(165, 23);
-            InputFornecedorRG.TabIndex = 18;
+            InputFncdRg.Location = new Point(501, 128);
+            InputFncdRg.Name = "InputFncdRg";
+            InputFncdRg.Size = new Size(165, 23);
+            InputFncdRg.TabIndex = 18;
+            InputFncdRg.Leave += InputFncdRg_Leave;
             // 
-            // InputCategoriaRG
+            // InputCtgRg
             // 
-            InputCategoriaRG.Location = new Point(250, 128);
-            InputCategoriaRG.Name = "InputCategoriaRG";
-            InputCategoriaRG.Size = new Size(165, 23);
-            InputCategoriaRG.TabIndex = 17;
+            InputCtgRg.Location = new Point(250, 128);
+            InputCtgRg.Name = "InputCtgRg";
+            InputCtgRg.Size = new Size(165, 23);
+            InputCtgRg.TabIndex = 17;
+            InputCtgRg.Leave += InputCtgRg_Leave;
             // 
-            // InputNomeRG
+            // InputNomeRg
             // 
-            InputNomeRG.Location = new Point(13, 128);
-            InputNomeRG.Name = "InputNomeRG";
-            InputNomeRG.Size = new Size(165, 23);
-            InputNomeRG.TabIndex = 16;
+            InputNomeRg.Location = new Point(13, 128);
+            InputNomeRg.Name = "InputNomeRg";
+            InputNomeRg.Size = new Size(165, 23);
+            InputNomeRg.TabIndex = 16;
+            InputNomeRg.Leave += InputNomeRg_Leave;
             // 
-            // LabelDescricaoRegistrador
+            // LabelDscRg
             // 
-            LabelDescricaoRegistrador.AutoSize = true;
-            LabelDescricaoRegistrador.Font = new Font("Segoe UI", 12F);
-            LabelDescricaoRegistrador.ForeColor = SystemColors.ControlLightLight;
-            LabelDescricaoRegistrador.Location = new Point(13, 286);
-            LabelDescricaoRegistrador.Name = "LabelDescricaoRegistrador";
-            LabelDescricaoRegistrador.Size = new Size(77, 21);
-            LabelDescricaoRegistrador.TabIndex = 15;
-            LabelDescricaoRegistrador.Text = "Descrição";
+            LabelDscRg.AutoSize = true;
+            LabelDscRg.Font = new Font("Segoe UI", 12F);
+            LabelDscRg.ForeColor = SystemColors.ControlLightLight;
+            LabelDscRg.Location = new Point(13, 286);
+            LabelDscRg.Name = "LabelDscRg";
+            LabelDscRg.Size = new Size(77, 21);
+            LabelDscRg.TabIndex = 15;
+            LabelDscRg.Text = "Descrição";
             // 
-            // LabelUMRegistrador
+            // LabelUmRg
             // 
-            LabelUMRegistrador.AutoSize = true;
-            LabelUMRegistrador.Font = new Font("Segoe UI", 12F);
-            LabelUMRegistrador.ForeColor = SystemColors.ControlLightLight;
-            LabelUMRegistrador.Location = new Point(442, 190);
-            LabelUMRegistrador.Name = "LabelUMRegistrador";
-            LabelUMRegistrador.Size = new Size(145, 21);
-            LabelUMRegistrador.TabIndex = 14;
-            LabelUMRegistrador.Text = "Unidade de Medida";
+            LabelUmRg.AutoSize = true;
+            LabelUmRg.Font = new Font("Segoe UI", 12F);
+            LabelUmRg.ForeColor = SystemColors.ControlLightLight;
+            LabelUmRg.Location = new Point(442, 190);
+            LabelUmRg.Name = "LabelUmRg";
+            LabelUmRg.Size = new Size(145, 21);
+            LabelUmRg.TabIndex = 14;
+            LabelUmRg.Text = "Unidade de Medida";
             // 
-            // LabelFornecedorRegistrador
+            // LabelFncdRg
             // 
-            LabelFornecedorRegistrador.AutoSize = true;
-            LabelFornecedorRegistrador.Font = new Font("Segoe UI", 12F);
-            LabelFornecedorRegistrador.ForeColor = SystemColors.ControlLightLight;
-            LabelFornecedorRegistrador.Location = new Point(501, 104);
-            LabelFornecedorRegistrador.Name = "LabelFornecedorRegistrador";
-            LabelFornecedorRegistrador.Size = new Size(96, 21);
-            LabelFornecedorRegistrador.TabIndex = 13;
-            LabelFornecedorRegistrador.Text = "Fornecedor*";
+            LabelFncdRg.AutoSize = true;
+            LabelFncdRg.Font = new Font("Segoe UI", 12F);
+            LabelFncdRg.ForeColor = SystemColors.ControlLightLight;
+            LabelFncdRg.Location = new Point(501, 104);
+            LabelFncdRg.Name = "LabelFncdRg";
+            LabelFncdRg.Size = new Size(96, 21);
+            LabelFncdRg.TabIndex = 13;
+            LabelFncdRg.Text = "Fornecedor*";
             // 
-            // LabelQuantidadeRegistrador
+            // LabelQtdRg
             // 
-            LabelQuantidadeRegistrador.AutoSize = true;
-            LabelQuantidadeRegistrador.Font = new Font("Segoe UI", 12F);
-            LabelQuantidadeRegistrador.ForeColor = SystemColors.ControlLightLight;
-            LabelQuantidadeRegistrador.Location = new Point(302, 190);
-            LabelQuantidadeRegistrador.Name = "LabelQuantidadeRegistrador";
-            LabelQuantidadeRegistrador.Size = new Size(98, 21);
-            LabelQuantidadeRegistrador.TabIndex = 12;
-            LabelQuantidadeRegistrador.Text = "Quantidade*";
+            LabelQtdRg.AutoSize = true;
+            LabelQtdRg.Font = new Font("Segoe UI", 12F);
+            LabelQtdRg.ForeColor = SystemColors.ControlLightLight;
+            LabelQtdRg.Location = new Point(302, 190);
+            LabelQtdRg.Name = "LabelQtdRg";
+            LabelQtdRg.Size = new Size(98, 21);
+            LabelQtdRg.TabIndex = 12;
+            LabelQtdRg.Text = "Quantidade*";
             // 
-            // LabelPreçoRegistrador
+            // LabelPreçoRg
             // 
-            LabelPreçoRegistrador.AutoSize = true;
-            LabelPreçoRegistrador.Font = new Font("Segoe UI", 12F);
-            LabelPreçoRegistrador.ForeColor = SystemColors.ControlLightLight;
-            LabelPreçoRegistrador.Location = new Point(155, 190);
-            LabelPreçoRegistrador.Name = "LabelPreçoRegistrador";
-            LabelPreçoRegistrador.Size = new Size(56, 21);
-            LabelPreçoRegistrador.TabIndex = 11;
-            LabelPreçoRegistrador.Text = "Preço*";
+            LabelPreçoRg.AutoSize = true;
+            LabelPreçoRg.Font = new Font("Segoe UI", 12F);
+            LabelPreçoRg.ForeColor = SystemColors.ControlLightLight;
+            LabelPreçoRg.Location = new Point(155, 190);
+            LabelPreçoRg.Name = "LabelPreçoRg";
+            LabelPreçoRg.Size = new Size(56, 21);
+            LabelPreçoRg.TabIndex = 11;
+            LabelPreçoRg.Text = "Preço*";
             // 
-            // LabelCategoriaRegistrador
+            // LabelCtgRg
             // 
-            LabelCategoriaRegistrador.AutoSize = true;
-            LabelCategoriaRegistrador.Font = new Font("Segoe UI", 12F);
-            LabelCategoriaRegistrador.ForeColor = SystemColors.ControlLightLight;
-            LabelCategoriaRegistrador.Location = new Point(250, 104);
-            LabelCategoriaRegistrador.Name = "LabelCategoriaRegistrador";
-            LabelCategoriaRegistrador.Size = new Size(84, 21);
-            LabelCategoriaRegistrador.TabIndex = 10;
-            LabelCategoriaRegistrador.Text = "Categoria*";
+            LabelCtgRg.AutoSize = true;
+            LabelCtgRg.Font = new Font("Segoe UI", 12F);
+            LabelCtgRg.ForeColor = SystemColors.ControlLightLight;
+            LabelCtgRg.Location = new Point(250, 104);
+            LabelCtgRg.Name = "LabelCtgRg";
+            LabelCtgRg.Size = new Size(84, 21);
+            LabelCtgRg.TabIndex = 10;
+            LabelCtgRg.Text = "Categoria*";
             // 
-            // LabelNomeRegistrador
+            // LabelNomeRg
             // 
-            LabelNomeRegistrador.AutoSize = true;
-            LabelNomeRegistrador.Font = new Font("Segoe UI", 12F);
-            LabelNomeRegistrador.ForeColor = SystemColors.ControlLightLight;
-            LabelNomeRegistrador.Location = new Point(13, 104);
-            LabelNomeRegistrador.Name = "LabelNomeRegistrador";
-            LabelNomeRegistrador.Size = new Size(60, 21);
-            LabelNomeRegistrador.TabIndex = 9;
-            LabelNomeRegistrador.Text = "Nome*";
+            LabelNomeRg.AutoSize = true;
+            LabelNomeRg.Font = new Font("Segoe UI", 12F);
+            LabelNomeRg.ForeColor = SystemColors.ControlLightLight;
+            LabelNomeRg.Location = new Point(13, 104);
+            LabelNomeRg.Name = "LabelNomeRg";
+            LabelNomeRg.Size = new Size(60, 21);
+            LabelNomeRg.TabIndex = 9;
+            LabelNomeRg.Text = "Nome*";
             // 
-            // LabelCodigoRegistrador
+            // LabelCodigoRg
             // 
-            LabelCodigoRegistrador.AutoSize = true;
-            LabelCodigoRegistrador.Font = new Font("Segoe UI", 12F);
-            LabelCodigoRegistrador.ForeColor = SystemColors.ControlLightLight;
-            LabelCodigoRegistrador.Location = new Point(13, 190);
-            LabelCodigoRegistrador.Name = "LabelCodigoRegistrador";
-            LabelCodigoRegistrador.Size = new Size(67, 21);
-            LabelCodigoRegistrador.TabIndex = 8;
-            LabelCodigoRegistrador.Text = "Código*";
+            LabelCodigoRg.AutoSize = true;
+            LabelCodigoRg.Font = new Font("Segoe UI", 12F);
+            LabelCodigoRg.ForeColor = SystemColors.ControlLightLight;
+            LabelCodigoRg.Location = new Point(13, 190);
+            LabelCodigoRg.Name = "LabelCodigoRg";
+            LabelCodigoRg.Size = new Size(67, 21);
+            LabelCodigoRg.TabIndex = 8;
+            LabelCodigoRg.Text = "Código*";
             // 
             // panel2
             // 
@@ -321,31 +341,37 @@
             ResumeLayout(false);
         }
 
+        private void InputCtgRg_Leave1(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         #endregion
 
         private Panel panel1;
         private Panel panel2;
-        private Label LabelCategoriaRegistrador;
-        private Label LabelNomeRegistrador;
-        private Label LabelCodigoRegistrador;
-        private Label LabelDescricaoRegistrador;
-        private Label LabelUMRegistrador;
-        private Label LabelFornecedorRegistrador;
-        private Label LabelQuantidadeRegistrador;
-        private Label LabelPreçoRegistrador;
-        private TextBox InputDescricaoRG;
-        private TextBox InputUmRG;
-        private TextBox InputQuantidadeRG;
-        private TextBox InputPrecoRG;
-        private TextBox InputCodigoRG;
-        private TextBox InputFornecedorRG;
-        private TextBox InputCategoriaRG;
-        private TextBox InputNomeRG;
+        private Label LabelCtgRg;
+        private Label LabelNomeRg;
+        private Label LabelCodigoRg;
+        private Label LabelDscRg;
+        private Label LabelUmRg;
+        private Label LabelFncdRg;
+        private Label LabelQtdRg;
+        private Label LabelPreçoRg;
+        private TextBox InputDscRg;
+        private TextBox InputUmRg;
+        private TextBox InputQtdRg;
+        private TextBox InputPrecoRg;
+        private TextBox InputCodigoRg;
+        private TextBox InputFncdRg;
+        private TextBox InputCtgRg;
+        private TextBox InputNomeRg;
         private Label label1;
         private Button BntRegistrarProduto;
         private PictureBox Logo2;
-        private TextBox InputValidadeRG;
-        private Label LabelValidadeRegistrador;
+        private TextBox InputVldRg;
+        private Label LabelVldRg;
         private Label label2;
+        private TextBox TextoInput;
     }
 }

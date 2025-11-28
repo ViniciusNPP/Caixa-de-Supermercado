@@ -63,6 +63,16 @@ namespace Caixa_e_Estoque.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap banco_de_dados {
+            get {
+                object obj = ResourceManager.GetObject("banco-de-dados", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Carrinho_de_Compra {
             get {
                 object obj = ResourceManager.GetObject("Carrinho-de-Compra", resourceCulture);

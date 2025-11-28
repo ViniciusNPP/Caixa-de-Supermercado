@@ -23,3 +23,8 @@ C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\D
 C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\Debug\net8.0-windows\Caixa_e_Estoque.Estoque.resources
 C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\Debug\net8.0-windows\Caixa_e_Estoque.Atualizar.resources
 C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\Debug\net8.0-windows\Caixa_e_Estoque.Remocao.resources
+C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\Debug\net8.0-windows\Caixa-e-Estoque.csproj.AssemblyReference.cache
+C:\Users\rapos\Desktop\CaixaDeSupermercado\Caixa-e-Estoque\Caixa-e-Estoque\obj\Debug\net8.0-windows\Caixa-e-.85E9A4F2.Up2Date

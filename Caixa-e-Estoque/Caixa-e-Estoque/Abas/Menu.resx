@@ -117,284 +117,323 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="BntRemocaoMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 378</value>
-  </data>
-  <data name="&gt;&gt;Remocao.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BntEstoqueMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <data name="Título.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="Logo2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 50</value>
-  </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 378</value>
-  </data>
-  <data name="Registrador.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;BntAtualizarMenu.Name" xml:space="preserve">
-    <value>BntAtualizarMenu</value>
-  </data>
-  <data name="&gt;&gt;Atualizar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Estoque.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="BntRegistradorMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 116</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="Logo2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 14</value>
-  </data>
-  <data name="&gt;&gt;Registrador.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BntEstoqueMenu.Name" xml:space="preserve">
-    <value>BntEstoqueMenu</value>
-  </data>
-  <data name="&gt;&gt;BntAtualizarMenu.Parent" xml:space="preserve">
-    <value>panel1</value>
   </data>
   <data name="&gt;&gt;button2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Título.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 25</value>
+  <data name="BntBancoDeDados.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
-  <data name="&gt;&gt;Estoque.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Remocao.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;BntRegistradorMenu.Name" xml:space="preserve">
-    <value>BntRegistradorMenu</value>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>231, -2</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Título.Name" xml:space="preserve">
-    <value>Título</value>
+  <data name="RespostaSql.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Registrador.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Estoque.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;Logo2.Name" xml:space="preserve">
-    <value>Logo2</value>
-  </data>
-  <data name="Atualizar.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="Estoque.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;BntRegistradorMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
-  </data>
-  <data name="&gt;&gt;Atualizar.Name" xml:space="preserve">
-    <value>Atualizar</value>
-  </data>
-  <data name="&gt;&gt;BntRemocaoMenu.Name" xml:space="preserve">
-    <value>BntRemocaoMenu</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;BntEstoqueMenu.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;BntAtualizarMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BntEstoqueMenu.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="Remocao.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 378</value>
-  </data>
-  <data name="Registrador.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BntAtualizarMenu.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Título.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;BntRemocaoMenu.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;BntRegistradorMenu.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Menu</value>
-  </data>
-  <data name="Estoque.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 205</value>
-  </data>
-  <data name="BntAtualizarMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="BntAtualizarMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 293</value>
-  </data>
-  <data name="&gt;&gt;Atualizar.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;BntRemocaoMenu.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="BntEstoqueMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 205</value>
-  </data>
-  <data name="&gt;&gt;Registrador.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="Registrador.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 116</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>panel1</value>
   </data>
   <data name="&gt;&gt;Remocao.Name" xml:space="preserve">
     <value>Remocao</value>
   </data>
-  <data name="&gt;&gt;Logo2.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+  <data name="&gt;&gt;BntAtualizarMenu.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;Estoque.Name" xml:space="preserve">
     <value>Estoque</value>
   </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;Registrador.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;BntRegistradorMenu.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 293</value>
-  </data>
-  <data name="&gt;&gt;Título.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Título.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
   <data name="BntRemocaoMenu.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="Estoque.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;Remocao.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;Logo2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Logo2.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="&gt;&gt;Remocao.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="Estoque.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;BntRemocaoMenu.Type" xml:space="preserve">
+  <data name="&gt;&gt;BntBancoDeDados.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="BntRegistradorMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Atualizar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 293</value>
+  </data>
+  <data name="&gt;&gt;BntRegistradorMenu.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Remocao.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;Logo2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Título.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BntEstoqueMenu.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="&gt;&gt;Atualizar.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;Estoque.Parent" xml:space="preserve">
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 293</value>
+  </data>
+  <data name="Registrador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Estoque.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;RespostaSql.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;Logo2.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="Remocao.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;Registrador.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Menu</value>
-  </data>
-  <data name="&gt;&gt;BntEstoqueMenu.Type" xml:space="preserve">
+  <data name="&gt;&gt;BntRegistradorMenu.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Registrador.Name" xml:space="preserve">
-    <value>Registrador</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BntRegistradorMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BntAtualizarMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="Atualizar.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="&gt;&gt;BntAtualizarMenu.Name" xml:space="preserve">
+    <value>BntAtualizarMenu</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="Logo2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 14</value>
+  </data>
+  <data name="Atualizar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Registrador.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Remocao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 378</value>
+  </data>
+  <data name="&gt;&gt;Estoque.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BntEstoqueMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 205</value>
+  </data>
+  <data name="RespostaSql.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 146</value>
+  </data>
+  <data name="&gt;&gt;Remocao.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Atualizar.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;BntAtualizarMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Título.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;Logo2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Logo2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BntEstoqueMenu.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Atualizar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;BntRegistradorMenu.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="BntRemocaoMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 378</value>
+  </data>
+  <data name="&gt;&gt;Título.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;RespostaSql.Name" xml:space="preserve">
+    <value>RespostaSql</value>
+  </data>
+  <data name="&gt;&gt;RespostaSql.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Título.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Estoque.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="RespostaSql.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 378</value>
+  </data>
+  <data name="BntRegistradorMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 116</value>
+  </data>
+  <data name="&gt;&gt;BntEstoqueMenu.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;RespostaSql.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BntAtualizarMenu.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Estoque.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;BntRemocaoMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BntEstoqueMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;Registrador.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Registrador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;BntBancoDeDados.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;BntRemocaoMenu.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BntRemocaoMenu.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="Estoque.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 205</value>
+  </data>
+  <data name="&gt;&gt;Atualizar.Name" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="BntAtualizarMenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>100, 293</value>
+  </data>
+  <data name="&gt;&gt;BntEstoqueMenu.Name" xml:space="preserve">
+    <value>BntEstoqueMenu</value>
+  </data>
+  <data name="&gt;&gt;Título.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Logo2.Name" xml:space="preserve">
+    <value>Logo2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="Registrador.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BntRegistradorMenu.Name" xml:space="preserve">
+    <value>BntRegistradorMenu</value>
+  </data>
+  <data name="Registrador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 116</value>
+  </data>
+  <data name="&gt;&gt;Remocao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, -2</value>
+  </data>
+  <data name="&gt;&gt;Estoque.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BntBancoDeDados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 412</value>
+  </data>
+  <data name="Logo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 50</value>
+  </data>
+  <data name="&gt;&gt;BntBancoDeDados.Name" xml:space="preserve">
+    <value>BntBancoDeDados</value>
+  </data>
+  <data name="&gt;&gt;Registrador.Name" xml:space="preserve">
+    <value>Registrador</value>
+  </data>
+  <data name="Título.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 25</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;Título.Name" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="&gt;&gt;BntBancoDeDados.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BntRemocaoMenu.Name" xml:space="preserve">
+    <value>BntRemocaoMenu</value>
   </data>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>pt-BR</value>
